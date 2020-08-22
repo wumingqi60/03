@@ -1,6 +1,6 @@
 
 import socket
-
+#/
 client=socket.socket()
 
 client.connect(('localhost',9000))
