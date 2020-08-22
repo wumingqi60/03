@@ -3,7 +3,7 @@ from threading import Thread
 
 
 def Communication(conn):
-    # 通信循环
+    # 通信循环1
     while 1:
         try:
             data = conn.recv(1024)
